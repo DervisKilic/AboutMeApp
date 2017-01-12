@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7BE356962B0A0CB91076A818FB3E58B761F520D8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7BE356962B0A0CB91076A818FB3E58B761F520D8" : 9223372036854775807,
+    "0F165DDFEEAB32C2154EA53B590EB8CB0C8D9924" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9F6C1439-506E-4F44-8037-42BAE4EE98B3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7BE356962B0A0CB91076A818FB3E58B761F520D8" : "Labb1\/",
+    "0F165DDFEEAB32C2154EA53B590EB8CB0C8D9924" : "..\/Desktop\/test"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Labb1",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Labb1.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/guasc0\/test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0F165DDFEEAB32C2154EA53B590EB8CB0C8D9924"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DervisKilic\/DervisKilicLabb1ObjC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7BE356962B0A0CB91076A818FB3E58B761F520D8"
+    }
+  ]
+}
