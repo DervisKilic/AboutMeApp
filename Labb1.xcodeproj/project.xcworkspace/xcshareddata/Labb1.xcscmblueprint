@@ -1,16 +1,16 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7BE356962B0A0CB91076A818FB3E58B761F520D8",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "719E46950A641D61615827C40D0CA9D149AC5937",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "7BE356962B0A0CB91076A818FB3E58B761F520D8" : 9223372036854775807,
-    "0F165DDFEEAB32C2154EA53B590EB8CB0C8D9924" : 9223372036854775807
+    "0F165DDFEEAB32C2154EA53B590EB8CB0C8D9924" : 9223372036854775807,
+    "719E46950A641D61615827C40D0CA9D149AC5937" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9F6C1439-506E-4F44-8037-42BAE4EE98B3",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "7BE356962B0A0CB91076A818FB3E58B761F520D8" : "Labb1\/",
-    "0F165DDFEEAB32C2154EA53B590EB8CB0C8D9924" : "..\/Desktop\/test"
+    "0F165DDFEEAB32C2154EA53B590EB8CB0C8D9924" : "..\/Desktop\/test",
+    "719E46950A641D61615827C40D0CA9D149AC5937" : "Labb1\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Labb1",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -24,7 +24,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DervisKilic\/DervisKilicLabb1ObjC.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7BE356962B0A0CB91076A818FB3E58B761F520D8"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "719E46950A641D61615827C40D0CA9D149AC5937"
     }
   ]
 }
