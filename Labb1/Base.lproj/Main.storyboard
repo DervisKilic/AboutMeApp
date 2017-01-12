@@ -36,6 +36,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0xB-sD-cyl"/>
                                     <segue destination="28q-jm-Gut" kind="push" id="DCZ-mA-2Do"/>
                                 </connections>
                             </button>
@@ -69,7 +70,8 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="BL5-YB-4xj" kind="push" id="RB7-T7-PnO"/>
+                                    <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VOp-Te-cYG"/>
+                                    <segue destination="BL5-YB-4xj" kind="push" id="rbC-BQ-2Rd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pe3-75-7ff">
@@ -88,7 +90,8 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="lHU-GM-405" kind="push" id="AAU-7l-vPg"/>
+                                    <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SLE-PB-YEs"/>
+                                    <segue destination="lHU-GM-405" kind="push" id="mNC-9e-3YP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -103,7 +106,7 @@
         <!--Facts-->
         <scene sceneID="zGk-BR-ec9">
             <objects>
-                <viewController id="BL5-YB-4xj" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="b1" automaticallyAdjustsScrollViewInsets="NO" id="BL5-YB-4xj" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XlZ-HF-ToF"/>
                         <viewControllerLayoutGuide type="bottom" id="FaK-Sh-8j9"/>
@@ -113,7 +116,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="weG-jy-7tS" userLabel="Label">
-                                <rect key="frame" x="16" y="20" width="304" height="528"/>
+                                <rect key="frame" x="16" y="72" width="288" height="442"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.81445921629999996" blue="0.85323308320000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <attributedString key="attributedText">
@@ -174,19 +177,19 @@ Fact 10: All cats are beautiful.</string>
                                 <rect key="frame" x="164" y="247" width="140" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat5.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="8bn-jc-6rv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat5" translatesAutoresizingMaskIntoConstraints="NO" id="8bn-jc-6rv">
                                 <rect key="frame" x="16" y="396" width="140" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat6.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="7dF-mF-yfs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat6" translatesAutoresizingMaskIntoConstraints="NO" id="7dF-mF-yfs">
                                 <rect key="frame" x="164" y="396" width="140" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat3.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="zre-p7-qZT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat3" translatesAutoresizingMaskIntoConstraints="NO" id="zre-p7-qZT">
                                 <rect key="frame" x="16" y="247" width="140" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat4.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="lWW-xB-6Tu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat4" translatesAutoresizingMaskIntoConstraints="NO" id="lWW-xB-6Tu">
                                 <rect key="frame" x="164" y="247" width="140" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -198,16 +201,12 @@ Fact 10: All cats are beautiful.</string>
                                 <rect key="frame" x="164" y="97" width="140" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Utk-Ak-nXl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat1" translatesAutoresizingMaskIntoConstraints="NO" id="Utk-Ak-nXl">
                                 <rect key="frame" x="16" y="97" width="140" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="RPE-Sy-DtQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat2" translatesAutoresizingMaskIntoConstraints="NO" id="RPE-Sy-DtQ">
                                 <rect key="frame" x="164" y="97" width="140" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="fqP-dL-Xe7">
-                                <rect key="frame" x="16" y="97" width="140" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -231,7 +230,7 @@ Fact 10: All cats are beautiful.</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="me.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BTj-ng-g1T">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="me" translatesAutoresizingMaskIntoConstraints="NO" id="BTj-ng-g1T">
                                 <rect key="frame" x="40" y="72" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -259,7 +258,7 @@ Favorite Animal: Cats</string>
                                 <color key="backgroundColor" red="0.71947757629999998" green="0.80663671579999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">My name is Dervis (pronounce it like därvish) before I started studying app development, I worked as a journalist. But that was not what a wannted to do rest of my life and I was pretty bad at it in my opinion. I also have a bachelor in political science, which is the most useless degree you can have plus politics are boring. Also I love cats but i dont have a cat. My Significant Other is allergic *sad face.</string>
+                                        <string key="content">My name is Dervis (pronounce it like därvish) before I started studying app development, I worked as a journalist. But that was not what a wannted to do rest of my life and I was pretty bad at it in my opinion. I also have a bachelor in political science, which is the most useless degree you can have plus politics are boring. Also I love cats but i dont have a cat. My significant other is allergic *sad face.</string>
                                         <attributes>
                                             <font key="NSFont" size="16" name="ComicSansMS-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -297,13 +296,13 @@ Favorite Animal: Cats</string>
         </scene>
     </scenes>
     <resources>
-        <image name="cat1.jpeg" width="275" height="183"/>
-        <image name="cat2.jpeg" width="307" height="164"/>
-        <image name="cat3.jpeg" width="256" height="194"/>
-        <image name="cat4.jpeg" width="259" height="194"/>
-        <image name="cat5.jpeg" width="244" height="207"/>
-        <image name="cat6.jpeg" width="327" height="154"/>
-        <image name="me.jpg" width="212" height="339"/>
+        <image name="cat1" width="275" height="183"/>
+        <image name="cat2" width="307" height="164"/>
+        <image name="cat3" width="256" height="194"/>
+        <image name="cat4" width="259" height="194"/>
+        <image name="cat5" width="244" height="207"/>
+        <image name="cat6" width="327" height="154"/>
+        <image name="me" width="212" height="339"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

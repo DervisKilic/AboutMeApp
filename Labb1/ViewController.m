@@ -10,9 +10,16 @@
 
 @interface ViewController ()
 
+
 @end
 
 @implementation ViewController
+- (IBAction)changeBackgroundColor:(UIButton *)sender {
+    
+    self.view.backgroundColor = [UIColor redColor];
+    
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,3 +34,4 @@
 
 
 @end
+

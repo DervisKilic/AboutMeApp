@@ -13,13 +13,6 @@
 		E93747FE1E252A8C000028FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93747FC1E252A8C000028FC /* Main.storyboard */; };
 		E93748001E252A8C000028FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93747FF1E252A8C000028FC /* Assets.xcassets */; };
 		E93748031E252A8C000028FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93748011E252A8C000028FC /* LaunchScreen.storyboard */; };
-		E95EDFD71E26826E007DC5DD /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E95EDFD61E26826E007DC5DD /* me.jpg */; };
-		E9967F5F1E269BB400284C70 /* cat1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9967F591E269BB400284C70 /* cat1.jpeg */; };
-		E9967F601E269BB400284C70 /* cat2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9967F5A1E269BB400284C70 /* cat2.jpeg */; };
-		E9967F611E269BB400284C70 /* cat3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9967F5B1E269BB400284C70 /* cat3.jpeg */; };
-		E9967F621E269BB400284C70 /* cat4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9967F5C1E269BB400284C70 /* cat4.jpeg */; };
-		E9967F631E269BB400284C70 /* cat5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9967F5D1E269BB400284C70 /* cat5.jpeg */; };
-		E9967F641E269BB400284C70 /* cat6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9967F5E1E269BB400284C70 /* cat6.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,13 +26,6 @@
 		E93747FF1E252A8C000028FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E93748021E252A8C000028FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E93748041E252A8C000028FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E95EDFD61E26826E007DC5DD /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = me.jpg; path = ../../../Desktop/me.jpg; sourceTree = "<group>"; };
-		E9967F591E269BB400284C70 /* cat1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat1.jpeg; path = ../../../Desktop/cat1.jpeg; sourceTree = "<group>"; };
-		E9967F5A1E269BB400284C70 /* cat2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat2.jpeg; path = ../../../Desktop/cat2.jpeg; sourceTree = "<group>"; };
-		E9967F5B1E269BB400284C70 /* cat3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat3.jpeg; path = ../../../Desktop/cat3.jpeg; sourceTree = "<group>"; };
-		E9967F5C1E269BB400284C70 /* cat4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat4.jpeg; path = ../../../Desktop/cat4.jpeg; sourceTree = "<group>"; };
-		E9967F5D1E269BB400284C70 /* cat5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat5.jpeg; path = ../../../Desktop/cat5.jpeg; sourceTree = "<group>"; };
-		E9967F5E1E269BB400284C70 /* cat6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat6.jpeg; path = ../../../Desktop/cat6.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,13 +74,6 @@
 		E93747F31E252A8C000028FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E9967F591E269BB400284C70 /* cat1.jpeg */,
-				E9967F5A1E269BB400284C70 /* cat2.jpeg */,
-				E9967F5B1E269BB400284C70 /* cat3.jpeg */,
-				E9967F5C1E269BB400284C70 /* cat4.jpeg */,
-				E9967F5D1E269BB400284C70 /* cat5.jpeg */,
-				E9967F5E1E269BB400284C70 /* cat6.jpeg */,
-				E95EDFD61E26826E007DC5DD /* me.jpg */,
 				E93747F41E252A8C000028FC /* main.m */,
 			);
 			name = "Supporting Files";
@@ -159,16 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9967F5F1E269BB400284C70 /* cat1.jpeg in Resources */,
-				E9967F621E269BB400284C70 /* cat4.jpeg in Resources */,
-				E9967F601E269BB400284C70 /* cat2.jpeg in Resources */,
 				E93748031E252A8C000028FC /* LaunchScreen.storyboard in Resources */,
 				E93748001E252A8C000028FC /* Assets.xcassets in Resources */,
-				E9967F641E269BB400284C70 /* cat6.jpeg in Resources */,
-				E9967F611E269BB400284C70 /* cat3.jpeg in Resources */,
 				E93747FE1E252A8C000028FC /* Main.storyboard in Resources */,
-				E9967F631E269BB400284C70 /* cat5.jpeg in Resources */,
-				E95EDFD71E26826E007DC5DD /* me.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
