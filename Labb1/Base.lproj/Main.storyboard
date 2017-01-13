@@ -36,7 +36,6 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0xB-sD-cyl"/>
                                     <segue destination="28q-jm-Gut" kind="push" id="DCZ-mA-2Do"/>
                                 </connections>
                             </button>
@@ -55,7 +54,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QC0-AY-OdV">
-                                <rect key="frame" x="16" y="284" width="288" height="51"/>
+                                <rect key="frame" x="16" y="229" width="288" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.956888089" green="0.956888089" blue="0.956888089" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
@@ -70,12 +69,11 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VOp-Te-cYG"/>
                                     <segue destination="BL5-YB-4xj" kind="push" id="rbC-BQ-2Rd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pe3-75-7ff">
-                                <rect key="frame" x="16" y="403" width="288" height="51"/>
+                                <rect key="frame" x="16" y="285" width="288" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.956888089" green="0.956888089" blue="0.956888089" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
@@ -90,12 +88,29 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SLE-PB-YEs"/>
                                     <segue destination="lHU-GM-405" kind="push" id="mNC-9e-3YP"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R7Y-OX-8UX">
+                                <rect key="frame" x="16" y="449" width="288" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.956888089" green="0.956888089" blue="0.956888089" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Settings">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.3877439305" blue="0.4898192435" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="30" name="MarkerFelt-Wide"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="fAa-Xd-xCB" kind="push" id="8YQ-di-yXO"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Dervis Kilic" id="V42-S8-Qh4"/>
                 </viewController>
@@ -106,7 +121,7 @@
         <!--Facts-->
         <scene sceneID="zGk-BR-ec9">
             <objects>
-                <viewController storyboardIdentifier="b1" automaticallyAdjustsScrollViewInsets="NO" id="BL5-YB-4xj" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BL5-YB-4xj" customClass="FactsView" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XlZ-HF-ToF"/>
                         <viewControllerLayoutGuide type="bottom" id="FaK-Sh-8j9"/>
@@ -118,7 +133,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="weG-jy-7tS" userLabel="Label">
                                 <rect key="frame" x="16" y="72" width="288" height="442"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.81445921629999996" blue="0.85323308320000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Fact 1: I was born i in Istanbul.
@@ -149,7 +163,7 @@ Fact 10: All cats are beautiful.</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.81445921629999996" blue="0.85323308320000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Facts" id="LXX-Z7-ov6"/>
                 </viewController>
@@ -160,7 +174,7 @@ Fact 10: All cats are beautiful.</string>
         <!--Pictures-->
         <scene sceneID="0JW-yo-tzh">
             <objects>
-                <viewController id="lHU-GM-405" sceneMemberID="viewController">
+                <viewController id="lHU-GM-405" customClass="PicturesView" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wef-xG-amn"/>
                         <viewControllerLayoutGuide type="bottom" id="Jor-b2-DJc"/>
@@ -210,7 +224,6 @@ Fact 10: All cats are beautiful.</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.78924027307687494" green="1" blue="0.73842905275644433" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Pictures" id="7J0-TE-D5V"/>
                 </viewController>
@@ -218,10 +231,117 @@ Fact 10: All cats are beautiful.</string>
             </objects>
             <point key="canvasLocation" x="1031" y="947"/>
         </scene>
+        <!--Settings-->
+        <scene sceneID="HJp-E2-oy5">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="fAa-Xd-xCB" customClass="SettingsView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vmC-Lg-lkX"/>
+                        <viewControllerLayoutGuide type="bottom" id="RHL-yN-GYV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GWc-sh-cMH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="d7H-xo-0ER">
+                                <rect key="frame" x="69" y="269" width="237" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="1" green="0.020532956710000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" red="1" green="0.020532956710000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" red="1" green="0.020532956710000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="colorSliderChanged:" destination="fAa-Xd-xCB" eventType="valueChanged" id="yW8-DL-ia0"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="LLp-VT-djm">
+                                <rect key="frame" x="69" y="425" width="237" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="maximumTrackTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="colorSliderChanged:" destination="fAa-Xd-xCB" eventType="valueChanged" id="noI-BG-90X"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYe-Ht-ntc">
+                                <rect key="frame" x="16" y="274" width="30" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Green" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xg-gI-Mzk">
+                                <rect key="frame" x="16" y="347" width="47" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7En-1W-POv">
+                                <rect key="frame" x="16" y="430" width="34" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change background color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TR7-cz-R2R">
+                                <rect key="frame" x="61" y="110" width="198" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOo-S0-FSK">
+                                <rect key="frame" x="16" y="248" width="288" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZXE-iF-vOq">
+                                <rect key="frame" x="69" y="347" width="237" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="colorSliderChanged:" destination="fAa-Xd-xCB" eventType="valueChanged" id="xod-ez-6sY"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l2X-Zn-bzk">
+                                <rect key="frame" x="16" y="324" width="288" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eh7-mB-eEP">
+                                <rect key="frame" x="16" y="402" width="288" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="hBn-I7-qUF"/>
+                    <connections>
+                        <outlet property="blueLabel" destination="Eh7-mB-eEP" id="M1W-lM-ZpA"/>
+                        <outlet property="blueSlider" destination="LLp-VT-djm" id="SWw-JC-Flr"/>
+                        <outlet property="greenLabel" destination="l2X-Zn-bzk" id="rlE-ys-NxQ"/>
+                        <outlet property="greenSlider" destination="ZXE-iF-vOq" id="hss-qb-FAM"/>
+                        <outlet property="redLabel" destination="qOo-S0-FSK" id="E6N-fl-HzH"/>
+                        <outlet property="redSlider" destination="d7H-xo-0ER" id="HRL-fy-kUz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2qe-5a-NRU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-135" y="947"/>
+        </scene>
         <!--Intro-->
         <scene sceneID="iwb-0X-BNP">
             <objects>
-                <viewController title="Intro" id="28q-jm-Gut" sceneMemberID="viewController">
+                <viewController title="Intro" id="28q-jm-Gut" customClass="AboutMeView" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cWq-W4-Un0"/>
                         <viewControllerLayoutGuide type="bottom" id="0eX-4a-Mhf"/>
@@ -237,7 +357,6 @@ Fact 10: All cats are beautiful.</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KO3-rA-OQ4" userLabel="Label">
                                 <rect key="frame" x="65" y="208" width="191" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71947757629999998" green="0.80663671579999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Name: Dervis Kilic
@@ -255,7 +374,6 @@ Favorite Animal: Cats</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tsH-pV-Fl8" userLabel="Label">
                                 <rect key="frame" x="16" y="308" width="288" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71947757629999998" green="0.80663671579999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">My name is Dervis (pronounce it like därvish) before I started studying app development, I worked as a journalist. But that was not what a wannted to do rest of my life and I was pretty bad at it in my opinion. I also have a bachelor in political science, which is the most useless degree you can have plus politics are boring. Also I love cats but i dont have a cat. My significant other is allergic *sad face.</string>
@@ -268,7 +386,7 @@ Favorite Animal: Cats</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.71947757629999998" green="0.80663671579999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="About me" id="j32-cd-HGV"/>
                 </viewController>

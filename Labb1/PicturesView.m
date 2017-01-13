@@ -1,20 +1,19 @@
 //
-//  ViewController.m
+//  PicturesView.m
 //  Labb1
 //
-//  Created by Dervis Kilic on 10/01/17.
+//  Created by Dervis Kilic on 13/01/17.
 //  Copyright © 2017 Dervis Kilic. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PicturesView.h"
 #import "SettingsView.h"
-
-@interface ViewController ()
+@interface PicturesView ()
 
 @end
 
-@implementation ViewController
-SettingsView *s1;
+@implementation PicturesView
+SettingsView *s4;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -29,9 +28,9 @@ SettingsView *s1;
 }
 
 - (void)backgroundColor {
-    s1 = [[SettingsView alloc] init];
+    s4 = [[SettingsView alloc] init];
     
-  self.view.backgroundColor = [UIColor colorWithRed:s1.red/255.0 green:s1.green/255.0 blue:s1.blue/255.0 alpha:1.0];
+    self.view.backgroundColor = [UIColor colorWithRed:s4.red/255.0 green:s4.green/255.0 blue:s4.blue/255.0 alpha:1.0];
 }
 
 -(void) viewWillDisappear:(BOOL)animated
@@ -44,7 +43,7 @@ SettingsView *s1;
 }
 
 - (void) viewDidAppear:(BOOL) animated {
-    self.view.backgroundColor = [UIColor colorWithRed:s1.red/255.0 green:s1.green/255.0 blue:s1.blue/255.0 alpha:1.0];
+    self.view.backgroundColor = [UIColor colorWithRed:s4.red/255.0 green:s4.green/255.0 blue:s4.blue/255.0 alpha:1.0];
     [super viewDidAppear:animated];
 }
 

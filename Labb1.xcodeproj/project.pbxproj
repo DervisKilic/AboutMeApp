@@ -13,6 +13,10 @@
 		E93747FE1E252A8C000028FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93747FC1E252A8C000028FC /* Main.storyboard */; };
 		E93748001E252A8C000028FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93747FF1E252A8C000028FC /* Assets.xcassets */; };
 		E93748031E252A8C000028FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93748011E252A8C000028FC /* LaunchScreen.storyboard */; };
+		E99E17351E28216600F8F1A9 /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E99E17341E28216600F8F1A9 /* SettingsView.m */; };
+		E99E17381E28C71100F8F1A9 /* AboutMeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E99E17371E28C71100F8F1A9 /* AboutMeView.m */; };
+		E99E173B1E28C73300F8F1A9 /* FactsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E99E173A1E28C73300F8F1A9 /* FactsView.m */; };
+		E99E173E1E28C74E00F8F1A9 /* PicturesView.m in Sources */ = {isa = PBXBuildFile; fileRef = E99E173D1E28C74E00F8F1A9 /* PicturesView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		E93747FF1E252A8C000028FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E93748021E252A8C000028FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E93748041E252A8C000028FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99E17331E28216600F8F1A9 /* SettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView.h; sourceTree = "<group>"; };
+		E99E17341E28216600F8F1A9 /* SettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsView.m; sourceTree = "<group>"; };
+		E99E17361E28C71100F8F1A9 /* AboutMeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMeView.h; sourceTree = "<group>"; };
+		E99E17371E28C71100F8F1A9 /* AboutMeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMeView.m; sourceTree = "<group>"; };
+		E99E17391E28C73300F8F1A9 /* FactsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsView.h; sourceTree = "<group>"; };
+		E99E173A1E28C73300F8F1A9 /* FactsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsView.m; sourceTree = "<group>"; };
+		E99E173C1E28C74E00F8F1A9 /* PicturesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicturesView.h; sourceTree = "<group>"; };
+		E99E173D1E28C74E00F8F1A9 /* PicturesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicturesView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,14 @@
 				E93748011E252A8C000028FC /* LaunchScreen.storyboard */,
 				E93748041E252A8C000028FC /* Info.plist */,
 				E93747F31E252A8C000028FC /* Supporting Files */,
+				E99E17331E28216600F8F1A9 /* SettingsView.h */,
+				E99E17341E28216600F8F1A9 /* SettingsView.m */,
+				E99E17361E28C71100F8F1A9 /* AboutMeView.h */,
+				E99E17371E28C71100F8F1A9 /* AboutMeView.m */,
+				E99E17391E28C73300F8F1A9 /* FactsView.h */,
+				E99E173A1E28C73300F8F1A9 /* FactsView.m */,
+				E99E173C1E28C74E00F8F1A9 /* PicturesView.h */,
+				E99E173D1E28C74E00F8F1A9 /* PicturesView.m */,
 			);
 			path = Labb1;
 			sourceTree = "<group>";
@@ -151,8 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E99E173E1E28C74E00F8F1A9 /* PicturesView.m in Sources */,
+				E99E17381E28C71100F8F1A9 /* AboutMeView.m in Sources */,
 				E93747FB1E252A8C000028FC /* ViewController.m in Sources */,
+				E99E17351E28216600F8F1A9 /* SettingsView.m in Sources */,
 				E93747F81E252A8C000028FC /* AppDelegate.m in Sources */,
+				E99E173B1E28C73300F8F1A9 /* FactsView.m in Sources */,
 				E93747F51E252A8C000028FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
