@@ -376,7 +376,7 @@ Favorite Animal: Cats</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">My name is Dervis (pronounce it like därvish) before I started studying app development, I worked as a journalist. But that was not what a wannted to do rest of my life and I was pretty bad at it in my opinion. I also have a bachelor in political science, which is the most useless degree you can have plus politics are boring. Also I love cats but i dont have a cat. My significant other is allergic *sad face.</string>
+                                        <string key="content">My name is Dervis (pronounce it like därvish) before I started studying app development, I worked as a journalist. But that was not what a wanted to do rest of my life and I was pretty bad at it in my opinion. I also have a bachelor in political science, which is the most useless degree you can have plus politics are boring. Also I love cats but i dont have a cat. My significant other is allergic *sad face.</string>
                                         <attributes>
                                             <font key="NSFont" size="16" name="ComicSansMS-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
