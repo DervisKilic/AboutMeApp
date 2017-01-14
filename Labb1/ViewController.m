@@ -14,12 +14,11 @@
 @end
 
 @implementation ViewController
-SettingsView *s1;
+BOOL standardColor = YES;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self backgroundColor];
 }
 
 
@@ -28,25 +27,27 @@ SettingsView *s1;
     // Dispose of any resources that can be recreated.
 }
 
-- (void)backgroundColor {
-    s1 = [[SettingsView alloc] init];
-    
-  self.view.backgroundColor = [UIColor colorWithRed:s1.red/255.0 green:s1.green/255.0 blue:s1.blue/255.0 alpha:1.0];
-}
-
--(void) viewWillDisappear:(BOOL)animated
-{
-    if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound)
-    {
-        [self.navigationController popViewControllerAnimated:NO];
-    }
-    [super viewWillDisappear:animated];
-}
-
 - (void) viewDidAppear:(BOOL) animated {
-    self.view.backgroundColor = [UIColor colorWithRed:s1.red/255.0 green:s1.green/255.0 blue:s1.blue/255.0 alpha:1.0];
+    [self getBackground];
     [super viewDidAppear:animated];
 }
 
+- (IBAction) settingsPressed:(UIButton *)sender {
+    standardColor = NO;
+}
+
+
+-(void) getBackground {
+    
+    if(standardColor){
+    self.view.backgroundColor = [UIColor whiteColor];
+        
+    }else{
+        self.view.backgroundColor = [UIColor colorWithRed:red/255.0
+                                                    green:green/255.0
+                                                     blue:blue/255.0
+                                                    alpha:1.0];
+    }
+}
 
 @end

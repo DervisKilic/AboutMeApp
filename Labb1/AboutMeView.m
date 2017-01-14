@@ -8,42 +8,36 @@
 
 #import "AboutMeView.h"
 #import "SettingsView.h"
+#import "ViewController.h"
 @interface AboutMeView ()
 
 @end
 
 @implementation AboutMeView
-SettingsView *s2;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self backgroundColor];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-- (void)backgroundColor {
-    s2 = [[SettingsView alloc] init];
-    
-    self.view.backgroundColor = [UIColor colorWithRed:s2.red/255.0 green:s2.green/255.0 blue:s2.blue/255.0 alpha:1.0];
-}
-
--(void) viewWillDisappear:(BOOL)animated
-{
-    if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound)
-    {
-        [self.navigationController popViewControllerAnimated:NO];
-    }
-    [super viewWillDisappear:animated];
-}
-
 - (void) viewDidAppear:(BOOL) animated {
-    self.view.backgroundColor = [UIColor colorWithRed:s2.red/255.0 green:s2.green/255.0 blue:s2.blue/255.0 alpha:1.0];
+    [self getBackground];
     [super viewDidAppear:animated];
 }
+
+-(void) getBackground {
+    if(!standardColor){
+        self.view.backgroundColor = [UIColor colorWithRed:red/255.0
+                                                    green:green/255.0
+                                                     blue:blue/255.0
+                                                    alpha:1.0];
+        
+    }
+}
+
 @end

@@ -8,44 +8,36 @@
 
 #import "FactsView.h"
 #import "SettingsView.h"
+#import "ViewController.h"
 @interface FactsView ()
 
 @end
 
 @implementation FactsView
-SettingsView *s3;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self backgroundColor];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-- (void)backgroundColor {
-    s3 = [[SettingsView alloc] init];
-    
-    self.view.backgroundColor = [UIColor colorWithRed:s3.red/255.0 green:s3.green/255.0 blue:s3.blue/255.0 alpha:1.0];
-}
-
--(void) viewWillDisappear:(BOOL)animated
-{
-    if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound)
-    {
-        [self.navigationController popViewControllerAnimated:NO];
-    }
-    [super viewWillDisappear:animated];
-}
-
 - (void) viewDidAppear:(BOOL) animated {
-    self.view.backgroundColor = [UIColor colorWithRed:s3.red/255.0 green:s3.green/255.0 blue:s3.blue/255.0 alpha:1.0];
+    [self getBackground];
     [super viewDidAppear:animated];
 }
 
+-(void) getBackground {
+    if(!standardColor){
+        self.view.backgroundColor = [UIColor colorWithRed:red/255.0
+                                                green:green/255.0
+                                                blue:blue/255.0
+                                                alpha:1.0];
+        
+    }
+}
 
 @end

@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+extern BOOL standardColor;
+
 @end

@@ -24,6 +24,7 @@
 float red;
 float green;
 float blue;
+BOOL standardBackground = YES;
 
 
 - (void)refreshColorView {
@@ -71,24 +72,19 @@ float blue;
 }
 
 -(void)getBackGroundColor{
+    if(standardBackground){
+        red = 255;
+        green = 255;
+        blue = 255;
+        standardBackground = NO;
+        
+    }else{
+    
    _redSlider.value = red;
     _greenSlider.value = green;
     _blueSlider.value = blue;
-}
-
--(float) red
-{
-    return red;
-}
-
--(float) green
-{
-    return green;
-}
-
--(float) blue
-{
-    return blue;
+    [self refreshColorView];
+    }
 }
 
 - (void) viewDidAppear:(BOOL) animated {

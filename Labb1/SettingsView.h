@@ -12,8 +12,8 @@
 
 - (UIColor*)currentColor;
 
--(float) red;
--(float) green;
--(float) blue;
+extern float red;
+extern float green;
+extern float blue;
 
 @end
