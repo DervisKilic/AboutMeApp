@@ -43,9 +43,9 @@ BOOL standardColor = YES;
     self.view.backgroundColor = [UIColor whiteColor];
         
     }else{
-        self.view.backgroundColor = [UIColor colorWithRed:red/255.0
-                                                    green:green/255.0
-                                                     blue:blue/255.0
+        self.view.backgroundColor = [UIColor colorWithRed:redColor
+                                                    green:greenColor
+                                                     blue:blueColor
                                                     alpha:1.0];
     }
 }

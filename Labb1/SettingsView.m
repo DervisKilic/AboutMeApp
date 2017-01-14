@@ -21,9 +21,9 @@
 @end
 
 @implementation SettingsView
-float red;
-float green;
-float blue;
+float redColor = 1;
+float greenColor = 1;
+float blueColor = 1;
 BOOL standardBackground = YES;
 
 
@@ -31,11 +31,10 @@ BOOL standardBackground = YES;
     self.redLabel.text = [NSString stringWithFormat:@"%f", self.redSlider.value * 255];
     self.greenLabel.text = [NSString stringWithFormat:@"%f", self.greenSlider.value * 255];
     self.blueLabel.text = [NSString stringWithFormat:@"%f", self.blueSlider.value * 255];
-    self.view.backgroundColor = [self currentColor];
+    self.view.backgroundColor = [self setBackgroundColor];
 }
 
-- (UIColor*)currentColor {
-    
+- (UIColor*)setBackgroundColor {
     return [UIColor colorWithRed:self.redSlider.value
                                         green:self.greenSlider.value
                                          blue:self.blueSlider.value
@@ -47,7 +46,6 @@ BOOL standardBackground = YES;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self getBackGroundColor];
     [self refreshColorView];
     
     
@@ -55,45 +53,33 @@ BOOL standardBackground = YES;
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 -(void) viewWillDisappear:(BOOL)animated
 {
     if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound)
     {
-        red = _redSlider.value * 255;
-        green = _greenSlider.value * 255;
-        blue = _blueSlider.value * 255;
+        redColor = _redSlider.value;
+        greenColor = _greenSlider.value;
+        blueColor = _blueSlider.value;
         
         [self.navigationController popViewControllerAnimated:NO];
     }
     [super viewWillDisappear:animated];
 }
 
--(void)getBackGroundColor{
-    if(standardBackground){
-        red = 255;
-        green = 255;
-        blue = 255;
-        standardBackground = NO;
-        
-    }else{
-    
-   _redSlider.value = red;
-    _greenSlider.value = green;
-    _blueSlider.value = blue;
-    [self refreshColorView];
-    }
-}
-
 - (void) viewDidAppear:(BOOL) animated {
-    _redSlider.value = red / 255;
-    _greenSlider.value = green / 255;
-    _blueSlider.value = blue / 255;
+    [self getColors];
+    [self setBackgroundColor];
     [self refreshColorView];
+    
     [super viewDidAppear:animated];
 }
 
+-(void) getColors{
+    _redSlider.value = redColor;
+    _greenSlider.value = greenColor;
+    _blueSlider.value = blueColor;
+}
 
 @end

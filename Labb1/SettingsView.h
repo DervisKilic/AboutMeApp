@@ -10,10 +10,8 @@
 
 @interface SettingsView : UIViewController
 
-- (UIColor*)currentColor;
-
-extern float red;
-extern float green;
-extern float blue;
+extern float redColor;
+extern float greenColor;
+extern float blueColor;
 
 @end

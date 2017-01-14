@@ -16,13 +16,11 @@
 @implementation PicturesView
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
+    [self getBackground];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void) viewDidAppear:(BOOL) animated {
@@ -32,11 +30,10 @@
 
 -(void) getBackground {
     if(!standardColor){
-        self.view.backgroundColor = [UIColor colorWithRed:red/255.0
-                                                    green:green/255.0
-                                                     blue:blue/255.0
-                                                    alpha:1.0];
-        
+        self.view.backgroundColor = [UIColor colorWithRed:redColor
+                                                    green:greenColor
+                                                     blue:blueColor
+                                                    alpha:1.0];       
     }
 }
 
