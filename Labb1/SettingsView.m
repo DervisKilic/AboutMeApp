@@ -68,7 +68,7 @@ BOOL standardBackground = YES;
     [super viewWillDisappear:animated];
 }
 
-- (void) viewDidAppear:(BOOL) animated {
+- (void) viewWillAppear:(BOOL) animated {
     [self getColors];
     [self setBackgroundColor];
     [self refreshColorView];

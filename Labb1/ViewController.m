@@ -27,7 +27,7 @@ BOOL standardColor = YES;
     // Dispose of any resources that can be recreated.
 }
 
-- (void) viewDidAppear:(BOOL) animated {
+- (void) viewWillAppear:(BOOL) animated {
     [self getBackground];
     [super viewDidAppear:animated];
 }

@@ -33,7 +33,7 @@
         self.view.backgroundColor = [UIColor colorWithRed:redColor
                                                     green:greenColor
                                                      blue:blueColor
-                                                    alpha:1.0];       
+                                                    alpha:1.0];
     }
 }
 
